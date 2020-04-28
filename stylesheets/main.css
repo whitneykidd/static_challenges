@@ -6,6 +6,10 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 header {
   background: rgb(179, 0, 0);
   color: white;
