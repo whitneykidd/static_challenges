@@ -1,0 +1,32 @@
+body{
+  font-family: "Arial";
+}
+
+h1 {
+  font-size: 40px;
+}
+
+header {
+  background: rgb(179, 0, 0);
+  color: white;
+}
+
+header h1, header a{
+  display: inline;
+  font-weight: bold;
+}
+
+header a{
+  float: right;
+}
+
+nav {
+  background-color: #242323;
+  color: white;
+  width: 100%;
+  text-align: right;
+}
+
+nav a{
+  margin: 10px 10px;
+}
