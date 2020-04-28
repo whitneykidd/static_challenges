@@ -3,7 +3,7 @@ body{
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h2 {
@@ -19,22 +19,24 @@ h3 {
 header {
   background: rgb(179, 0, 0);
   color: white;
+  height: 60px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 
 header h1, header a{
   display: inline;
-  font-weight: bold;
-}
-
-header a{
-  float: right;
+  /* font-weight: bold; */
 }
 
 nav {
-  background-color: #242323;
+  background-color: #333333;
   color: white;
   width: 100%;
+  height: 46px;
   text-align: right;
+  padding-top: 23px;
 }
 
 nav a{
@@ -70,10 +72,17 @@ img {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #333333;
   color: white;
   padding: 15px;
+}
+
+#login {
+  padding-right: 10px;
+  padding-top: 5px;
+  float: right;
+  font-weight: normal;
 }
