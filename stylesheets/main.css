@@ -8,6 +8,12 @@ h1 {
 
 h2 {
   font-size: 30px;
+  font-weight: bold;
+}
+
+caption {
+  font-weight: bold;
+  text-align: left;
 }
 
 header {
@@ -69,4 +75,5 @@ img {
   width: 100%;
   background-color: #333333;
   color: white;
+  padding: 15px;
 }
